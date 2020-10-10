@@ -1,0 +1,130 @@
+/* BASE STYLES */
+
+html {
+    font-size: 150%;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+}
+/* CALCULATOR DISPLAY AND FRAME*/
+
+.container {
+    border-radius: 0.5em;
+    overflow: hidden;
+    
+}
+
+.calculator-display {
+     background-color: rgb(65, 65, 65);
+     color: rgb(224, 222, 222);
+     width: 16.25rem;
+     padding: 0.75rem 1rem;
+     text-align: right;
+     font-size: 150%;
+} 
+
+/* CALCULATOR KEYS */
+
+.calculator-keys {
+    background-color: rgb(146, 144, 144);
+    display: grid;
+    grid-gap: 2.5px;
+    height: 400px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-areas: 
+        ". . . ."
+        "seven eight nine equal"
+        "four five six equal"
+        "one two three equal"
+        "zero decimal clear equal";
+}
+
+.calculator-keys > button {
+    border: 0;
+}
+
+.one {
+    grid-area: one;
+    background-color: rgb(175, 170, 170);
+}
+.two {
+    grid-area: two;
+    background-color: rgb(175, 170, 170);
+}
+.three {
+    grid-area: three;
+    background-color: rgb(175, 170, 170);
+}
+.four {
+    grid-area: four;
+    background-color: rgb(175, 170, 170);
+}
+.five {
+    grid-area: five;
+    background-color: rgb(175, 170, 170);
+}
+.six {
+    grid-area: six;
+    background-color: rgb(175, 170, 170);
+}
+.seven {
+    grid-area: seven;
+    background-color: rgb(175, 170, 170);
+}
+.eight {
+    grid-area: eight;
+    background-color: rgb(175, 170, 170);
+}
+.nine {
+    grid-area: nine;
+    background-color: rgb(175, 170, 170);
+}
+.zero {
+    grid-area: zero;
+    background-color: rgb(175, 170, 170);
+}
+.decimal {
+    grid-area: decimal;
+    background-color: rgb(175, 170, 170);
+}
+.clear {
+    grid-area: clear;
+    background-color: rgb(175, 170, 170);
+}
+.equal {
+    grid-area: equal;
+    background-color: rgb(230, 69, 10);
+    color: white;
+}
+.equal:hover,
+.equal:focus {
+    background-color: rgb(141, 40, 3);
+}
+.operator-add,
+.operator-subtract,
+.operator-multiply,
+.operator-divide {
+    background-color: rgb(243, 243, 243);
+} 
+.operator-add:hover,
+.operator-subtract:hover,
+.operator-multiply:hover,
+.operator-divide:hover,
+.operator-add:focus,
+.operator-subtract:focus,
+.operator-multiply:focus,
+.operator-divide:focus{
+   background-color: rgb(216, 216, 216);
+}
+.number:hover,
+.number:focus {
+    background-color: rgb(230, 149, 95); 
+}
