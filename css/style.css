@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(31, 31, 31);
+    background-color: #282a36;
 }
 /* CALCULATOR DISPLAY AND FRAME*/
 
@@ -23,8 +23,8 @@ body {
 }
 
 .calculator-display {
-     background-color: rgb(65, 65, 65);
-     color: rgb(224, 222, 222);
+     background-color: #44475a;
+     color: #f8f8f2;
      width: 16.25rem;
      padding: 0.75rem 1rem;
      text-align: right;
@@ -34,7 +34,7 @@ body {
 /* CALCULATOR KEYS */
 
 .calculator-keys {
-    background-color: rgb(146, 144, 144);
+    background-color: #44475a;
     display: grid;
     grid-gap: 2.5px;
     height: 400px;
@@ -53,78 +53,91 @@ body {
 
 .one {
     grid-area: one;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .two {
     grid-area: two;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .three {
     grid-area: three;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .four {
     grid-area: four;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .five {
     grid-area: five;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .six {
     grid-area: six;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .seven {
     grid-area: seven;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .eight {
     grid-area: eight;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .nine {
     grid-area: nine;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .zero {
     grid-area: zero;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .decimal {
     grid-area: decimal;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .clear {
     grid-area: clear;
-    background-color: rgb(175, 170, 170);
+    background-color: #6272a4;
+    color: #f1fa8c;
 }
 .equal {
     grid-area: equal;
-    background-color: rgb(230, 69, 10);
-    color: white;
+    background-color: #ff79c6;
+    color: #44475a;
 }
 .equal:hover,
 .equal:focus {
-    background-color: rgb(141, 40, 3);
+    background-color: #ff5555;
 }
-.operator-add,
-.operator-subtract,
-.operator-multiply,
-.operator-divide {
-    background-color: rgb(243, 243, 243);
+.add,
+.subtract,
+.multiply,
+.divide {
+    background-color: #8be9fd;
+    color: #44475a;
 } 
-.operator-add:hover,
-.operator-subtract:hover,
-.operator-multiply:hover,
-.operator-divide:hover,
-.operator-add:focus,
-.operator-subtract:focus,
-.operator-multiply:focus,
-.operator-divide:focus{
-   background-color: rgb(216, 216, 216);
+.add:hover,
+.subtract:hover,
+.multiply:hover,
+.divide:hover,
+.add:focus,
+.subtract:focus,
+.multiply:focus,
+.divide:focus{
+   background-color: #50fa7b ;
 }
-.number:hover,
-.number:focus {
-    background-color: rgb(230, 149, 95); 
+[data-type="number"]:hover,
+[data-type="number"]:focus {
+    background-color: #bd93f9; 
 }

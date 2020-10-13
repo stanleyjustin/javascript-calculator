@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Calculator</title>
+    <title>d r a c u l a t o r</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/reset.css">
 </head>
 <body>
     <div class="container">
-        <div class="calculator-display">0</div>
-        <div class="calculator-keys">
-            <button class="operator-add">+</button>
-            <button class="operator-subtract">-</button>
-            <button class="operator-multiply">&times;</button>
-            <button class="operator-divide">/</button>
-            <button class="number one">1</button>
-            <button class="number two">2</button>
-            <button class="number three">3</button>
-            <button class="number four">4</button>
-            <button class="number five">5</button>
-            <button class="number six">6</button>
-            <button class="number seven">7</button>
-            <button class="number eight">8</button>
-            <button class="number nine">9</button>
-            <button class="number zero">0</button>
-            <button class="number decimal">.</button>
-            <button class="number clear">AC</button>
-            <button class="equal">=</button>
+        <div class="calculator">
+            <div class="calculator-display">0</div>
+             <div class="calculator-keys">
+                <button data-type="operator" data-key="plus" class="add">+</button>
+                <button data-type="operator" data-key="minus" class="subtract">-</button>
+                <button data-type="operator" data-key="times" class="multiply">&times;</button>
+                <button data-type="operator" data-key="divided" class="divide">/</button>
+                <button data-type="number" class="one">1</button>
+                <button data-type="number" class="two">2</button>
+                <button data-type="number" class="three">3</button>
+                <button data-type="number" class="four">4</button>
+                <button data-type="number" class="five">5</button>
+                <button data-type="number" class="six">6</button>
+                <button data-type="number" class="seven">7</button>
+                <button data-type="number" class="eight">8</button>
+                <button data-type="number" class="nine">9</button>
+                <button data-type="number" class="zero">0</button>
+                <button data-type="number" class="decimal">.</button>
+                <button data-type="clear" class="clear">AC</button>
+                <button data-type="equal" class="equal">=</button>
+            </div>    
         </div>
     </div>
-    <script src="calculator.js"></script>
+    <script src="js/calculator.js"></script>
 </body>
 </html>
